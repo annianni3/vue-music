@@ -1,4 +1,4 @@
-# cli-test
+# vue-music
 
 ## Project setup
 ```
