@@ -13,3 +13,7 @@ npm install css-loader --save
 ```
 ####better-scroll写slider组件不能轮播的原因是更新后的snap参数发生变化了
 ####？原理是什么，为什么需要设置宽度呢
+```
+仔细研究思考了以下，需要设置宽度的原因是因为，外部的wrapper的宽度是所以元素的总和，所以不能用width:100%来设置
+```
+####图片懒加载，vue-lazyload

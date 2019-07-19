@@ -4,10 +4,14 @@ import router from './router'
 import store from './store'
 import fastclick from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import VueLazyload from 'vue-lazyload'
 import 'common/stylus/index.styl'
 
 fastclick.attach(document.body)
 Vue.use(VueAwesomeSwiper)
+Vue.use(VueLazyload, {
+  loading: require('common/image/default.png'),
+})
 
 Vue.config.productionTip = false
 
