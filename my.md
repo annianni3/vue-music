@@ -7,4 +7,9 @@
 iconfont.css
 npm install css-loader --save
 ```
-
+###swiper一直不成功的原因是：
+```
+组件name不能是swiper
+```
+####better-scroll写slider组件不能轮播的原因是更新后的snap参数发生变化了
+####？原理是什么，为什么需要设置宽度呢

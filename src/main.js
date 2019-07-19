@@ -3,9 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import fastclick from 'fastclick'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'common/stylus/index.styl'
 
 fastclick.attach(document.body)
+Vue.use(VueAwesomeSwiper)
 
 Vue.config.productionTip = false
 
